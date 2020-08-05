@@ -11,6 +11,7 @@
 		955A525524DA8FCA00A49003 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A525424DA8FCA00A49003 /* ContentView.swift */; };
 		955A525724DA8FCB00A49003 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A525624DA8FCB00A49003 /* Assets.xcassets */; };
 		955A525A24DA8FCB00A49003 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 955A525924DA8FCB00A49003 /* Preview Assets.xcassets */; };
+		955A526224DA959F00A49003 /* ColorPIckerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 955A526124DA959F00A49003 /* ColorPIckerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		955A525624DA8FCB00A49003 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		955A525924DA8FCB00A49003 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		955A525B24DA8FCB00A49003 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		955A526124DA959F00A49003 /* ColorPIckerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPIckerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 			children = (
 				955A525224DA8FCA00A49003 /* CreateSnapchatColorPickerApp.swift */,
 				955A525424DA8FCA00A49003 /* ContentView.swift */,
+				955A526124DA959F00A49003 /* ColorPIckerView.swift */,
 				955A525624DA8FCB00A49003 /* Assets.xcassets */,
 				955A525B24DA8FCB00A49003 /* Info.plist */,
 				955A525824DA8FCB00A49003 /* Preview Content */,
@@ -140,6 +143,7 @@
 			files = (
 				955A525524DA8FCA00A49003 /* ContentView.swift in Sources */,
 				955A525324DA8FCA00A49003 /* CreateSnapchatColorPickerApp.swift in Sources */,
+				955A526224DA959F00A49003 /* ColorPIckerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

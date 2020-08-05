@@ -8,9 +8,15 @@
 import SwiftUI
 
 struct ContentView: View {
+    @State var currentColor: Color = .clear
+    
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        ZStack(alignment: .topTrailing) {
+            currentColor
+            ColorPIckerView(choosenColor: $currentColor)
+                .frame(width: 50, height: 200)
+                .offset(x: 0, y: 75)
+        }.edgesIgnoringSafeArea(.all)
     }
 }
 
